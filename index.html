@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!--internationale zeichen -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Konfigurationseinstellungen-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foto-Studio Köln-Mitte</title> <!-- Titel der Internetseite-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
+    
+    
+    
+    <style>
+        body{
+            font-family: 'Open Sans', sans-serif;
+            background-color: #d4d1d1;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+
+        .header-image{
+            width: 100%;
+            display: block;
+            height: 400px;
+            object-fit: cover;
+            object-position: 50% 40%;
+            
+        }
+
+        .headline{
+            color: #345677;
+        }
+        
+        .image-container{
+            background-color: #fafafa;
+            padding: 15px;
+        }
+
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center; 
+        }
+
+        a{
+            color: #345677;
+            text-decoration: none;
+            margin-left: 20px; 
+            font-weight: bold;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+
+        .text-highlight{
+            color: blue;
+            font-size: 48px;
+
+        }
+
+        .text-container{
+            background-color: #6ea5ca;
+            padding: 8px;
+            font-weight: 600;
+        }
+
+        .maps-container{
+            margin-top: 16px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .maps-right{
+            width: 30%;
+            margin-left: 16px;
+        }
+
+        .maps-frame{
+            border: 0;
+            height: 300px;
+            width: 70%;
+        }
+
+        .legal-content{
+            padding: 20px;
+        }
+
+        .legal-text{
+            margin-right: 20px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="navbar">
+        <h1 class="headline">
+            BEWERBUNGSFOTOS<br> <span class="text-highlight">Köln-Mitte</span>
+        </h1>
+
+        <div>
+            <a href="https://www.google.de/"> Google</a>
+            <a href="#"> Preise</a>
+            <a href="#"> Termin</a>
+            <a href="#"> Standort</a>
+        </div>
+    </div>
+
+    <div class="image-container">
+        <img class="header-image" src="header.jpg">
+        <div class="text-container">
+            Individuelle Bewerbungsbilder in 30 Minuten.
+        </div>
+
+        <div class="maps-container">
+            <iframe class="maps-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2500.505291434687!2d6.791900616101437!3d51.19134037958439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8ca555d9b471f%3A0x9a3e32a11a90cb60!2sHeinrich-Heine-Universit%C3%A4t%20D%C3%BCsseldorf!5e0!3m2!1sde!2sde!4v1633011881710!5m2!1sde!2sde" 
+            allowfullscreen="" loading="lazy"></iframe>
+            <div class="text-container maps-right">
+                Ein professionelles Bewerbungsfoto ist Ihr Schlüssel zum Erfolg!
+            </div>
+
+        </div>
+    </div>
+
+    <div class="legal-content">
+        <span class="legal-text">(c)ss 2021 - Imaginary Company GmbH</span> | <a href="#">Impressum</a> | <a href="#">Datenschutz</a>
+
+    </div>
+</body>
+</html>
